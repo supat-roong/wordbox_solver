@@ -3,8 +3,8 @@ import time
 import random
 from typing import List, Tuple
 import logging
-from wordbox_dataclass import LetterPosition
-from wordbox_config import PLAYER_CONFIG
+from custom_dataclass import LetterPosition
+from config import PLAYER_CONFIG
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)

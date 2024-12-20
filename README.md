@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ## Configuration
 
-1. Update `wordbox_config.py` with your Tesseract installation path and word list location
+1. Update `config.py` with your Tesseract installation path and word list location
 2. Adjust color ranges and grid detection parameters if needed
 3. Configure solver parameters like minimum word length and maximum words to play
 
@@ -75,7 +75,7 @@ python main.py
 
 ## Debugging
 
-Enable debug mode in `wordbox_config.py` to visualize:
+Enable debug mode in `config.py` to visualize:
 - Grid detection process
 - Letter recognition
 - Word paths and bonus positions
@@ -105,6 +105,6 @@ src/
 ├── solver.py            # Word finding algorithm
 ├── player.py           # Mouse control
 ├── screenshot.py       # Screen capture
-├── wordbox_config.py   # Configuration
-└── wordbox_dataclass.py # Data structures
+├── config.py   # Configuration
+└── custom_dataclass.py # Data structures
 ```

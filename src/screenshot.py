@@ -5,7 +5,7 @@ from tkinter import *
 import tkinter as tk
 import win32gui
 import win32con
-from wordbox_dataclass import ScreenRegion
+from custom_dataclass import ScreenRegion
 from typing import Optional, List
 
 class SnippingTool:

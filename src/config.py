@@ -1,5 +1,5 @@
 import numpy as np
-from wordbox_dataclass import (
+from custom_dataclass import (
     ColorRange, GridConfig, CircleDetectionConfig, ColorRangesConfig,
     WordScoringConfig, WordLengthConfig, SolverConfig, PlayerConfig
 )

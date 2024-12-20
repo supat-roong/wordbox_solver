@@ -3,8 +3,8 @@ import numpy as np
 import pytesseract
 import matplotlib.pyplot as plt
 from typing import List, Tuple, Dict
-from wordbox_dataclass import ScreenRegion, LetterPosition, CircleDetectionConfig, GridConfig
-from wordbox_config import COLOR_CONFIG, GRID_CONFIG, CIRCLE_CONFIG
+from custom_dataclass import ScreenRegion, LetterPosition, CircleDetectionConfig, GridConfig
+from config import COLOR_CONFIG, GRID_CONFIG, CIRCLE_CONFIG
 
 class ImageDebugger:
     """

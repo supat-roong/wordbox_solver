@@ -6,7 +6,7 @@ from screenshot import capture_screen_region
 from solver import WordboxSolver
 from grid_detector import WordboxGridDetector
 from player import play_game
-from wordbox_config import DEBUG, TESSERACT_PATH, WORDLIST_PATH
+from config import DEBUG, TESSERACT_PATH, WORDLIST_PATH
 
 # Configure logging to track program execution and debug information
 logging.basicConfig(level=logging.INFO)

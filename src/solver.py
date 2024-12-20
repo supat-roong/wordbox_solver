@@ -3,8 +3,8 @@ from functools import lru_cache
 from typing import Dict, List, Optional, Set, Tuple
 import concurrent.futures
 from pathlib import Path
-from wordbox_dataclass import LetterPosition, Position
-from wordbox_config import SOLVER_CONFIG
+from custom_dataclass import LetterPosition, Position
+from config import SOLVER_CONFIG
 
 class TrieNode:
     """

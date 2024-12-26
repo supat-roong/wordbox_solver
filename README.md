@@ -90,21 +90,25 @@ Enable debug mode in `config.py` to visualize:
 
 ## License
 
-[MIT License](LICENSE)
+This project is licensed under the MIT License - see the LICENSE(LICENSE) file for details.
 
 ## Disclaimer
 
 This tool is for educational purposes only. Be sure to comply with the terms of service of any games you use it with.
 
 ## Project Structure
+The project is organized as follows:
 
 ```
-src/
-├── main.py               # Main entry point
-├── grid_detector.py      # Game board detection
-├── solver.py            # Word finding algorithm
-├── player.py           # Mouse control
-├── screenshot.py       # Screen capture
-├── config.py   # Configuration
-└── custom_dataclass.py # Data structures
-```
+wordbox_solver/
+├── corpus/                     # Word lists corpus
+├── media/                      # Media assets (e.g., gameplay videos)
+├── src/                        # Source code
+│   ├── grid_detector.py        # Game board detection 
+│   ├── solver.py               # Word finding algorithm
+│   ├── player.py               # Mouse control and gameplay automation
+│   ├── screenshot.py           # Screen capture utilities
+│   ├── config.py               # Configuration settings
+│   └── custom_dataclass.py     # Custom data structures
+└── main.py                     # Main entry point of the application
+```   

@@ -1,7 +1,14 @@
+import sys
+import os
+from pathlib import Path
+
+# Add src directory to the Python module search path
+SRC_DIR = os.path.join(str(Path(__file__).resolve().parent), "src")
+sys.path.append(SRC_DIR)
+
 import pytesseract
 import time
 import logging
-from pathlib import Path
 from screenshot import capture_screen_region
 from solver import WordboxSolver
 from grid_detector import WordboxGridDetector

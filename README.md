@@ -4,7 +4,7 @@ An automated solver for the [Wordbox](https://platoapp.com/en/games/wordbox) gam
 
 ## Gameplay Example
 
-![Wordbox Solver Demo](media/wordbox.gif)
+![Wordbox Solver Demo](media/wordbox.mp4)
 
 In the demo above, you can see the solver in action:
 1. The user selects the game area using the snipping tool
